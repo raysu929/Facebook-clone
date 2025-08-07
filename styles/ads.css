@@ -1,0 +1,97 @@
+.ads-container{
+position: fixed;
+right: 40px;
+top: 70px;
+}
+
+.super-ad-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: background-color 0.25s;
+}
+
+.super-ad-container:hover{
+background-color: rgb(197, 196, 196);
+border-radius: 10px;
+}
+.sponsored-super{
+color: rgb(134, 132, 132);
+font-weight: 500;
+font-size: 1.2rem;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.ads-image{
+width: 200px;
+height: 200px;
+padding: 10px;
+}
+
+.super-bold{
+font-weight: 500;
+font-size: 1.2rem;
+margin-top: 50px;
+}
+
+.super-gray{
+color: gray;
+font-size: 0.8rem;
+}
+
+.contacts-container{
+display: grid;
+grid-template-columns:1fr 1fr;
+position: fixed;
+right: 200px;
+bottom: 290px;
+}
+
+.contacts{
+color: rgb(119, 119, 119);
+font-weight: 500;
+font-size: 1.3rem;
+margin-left: 70px;
+}
+
+.search-icon-contacts{
+  position: absolute;
+  right: -100px;
+}
+
+.border-contacts{
+  border-top: 1px ridge rgb(188, 186, 186);
+  right: 20px;
+  margin-top: 20px;
+}
+
+.ellipsis{
+  position: absolute;
+  font-size: 2rem;
+  top: -20px;
+  right: -150px;
+}
+
+.see-all{
+ position: absolute;
+  background-color: rgb(221, 224, 224);
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 7px 70px;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.arrow{
+ border-radius: 50%;
+ object-fit: contain;
+ position: absolute;
+ right: 130px;
+ top: 5px;
+ width: 30px;
+ height: 30px;
+}

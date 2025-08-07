@@ -1,0 +1,77 @@
+.header{
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  z-index: 200;
+}
+
+
+.facebook-logo{
+  padding-top: 4px;
+  margin-left: 5px;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.input-facebook{
+background-color: rgb(237, 241, 242);
+border: none;
+padding: 10px 40px;
+border-radius: 60px;
+width: 260px;
+transition: padding 0.25s ;
+}
+
+.input-facebook::placeholder{
+  font-family: Segoe UI Historic, Arial;
+font-size: 1.1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-input{
+  position: relative;
+  width: 260px;
+  margin-left: 10px;
+ top: -50px;
+ left: 60px;
+}
+
+.search-icon{
+position: absolute;
+color: rgb(111, 110, 110);
+top: 12px;
+left: 12px;
+} 
+
+.search-input:focus-within .search-icon {
+display: none;
+}
+
+.search-input:focus-within .input-facebook{
+  padding: 10px;
+}
+
+
+.feed-icons{
+  display: grid;
+  position: fixed;
+  top: -5px;
+  left: 535px;
+  width: 690px;
+  border-radius: 50%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.right-icons{
+  position: fixed;
+  right: 0px;
+  top: -5px;
+  object-fit: cover;
+}
