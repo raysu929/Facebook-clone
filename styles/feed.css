@@ -1,7 +1,7 @@
 .feed-container{
   position: relative;
   top: 80px;
- left: 550px;
+ left: 450px;
  display: grid;
  grid-template-columns: 1fr 1fr;
  background-color: white;
@@ -75,7 +75,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: relative;
   top: 130px;
-  left: 550px;
+  left: 450px;
   width: 500px;
   gap: 10px;
 }
@@ -163,7 +163,7 @@
   background-color: white;
   width: 640px;
   height: 300px;
-  left: 550px;
+  left: 450px;
   top: 550px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
