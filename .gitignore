@@ -1,0 +1,13 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Windows metadata
+*:Zone.Identifier
+
+# VS Code settings
+.vscode/
+
+# Node / build artifacts (for future-proofing)
+node_modules/
+dist/

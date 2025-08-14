@@ -44,7 +44,7 @@ display: grid;
 grid-template-columns:1fr 1fr;
 position: fixed;
 right: 200px;
-bottom: 290px;
+bottom: 30px;
 }
 
 .contacts{

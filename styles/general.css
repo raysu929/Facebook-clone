@@ -44,3 +44,13 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+.disclaimer{
+  background-color: #fff3cd; 
+  color: #856404;
+  padding: 15px; 
+  border: 1px solid #ffeeba; 
+  border-radius: 5px; 
+  margin: 20px 0; 
+  font-weight: bold;
+  width: 450px;
+}
