@@ -9,10 +9,7 @@ This project was created from scratch as a personal learning exercise. It is **n
 
 
 ## Live Preview
-
-👉 [Click here to view the live site](https://raysu929.github.io/Facebook-clone/)
-
-![Facebook Clone Preview](pictures/facebook-clone-screenshot.png)
+👉 [Click here to view the live site](https://luna-facecbook.netlify.app/)
 
 > Note: This is a static front-end clone. No real login functionality or backend connections are implemented.
 
